@@ -1,0 +1,21 @@
+Day 1: What is Cloud Computing?
+Cloud computing is the on-demand delivery of IT resources over the internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining physical data centers and servers, you access technology services, such as computing power, storage, and databases, from a provider like AWS, Azure, or Google Cloud.
+
+The Shift: On-Premise vs. Cloud
+Traditional (On-Premise): You are responsible for hardware, cooling, security, and maintenance. Scaling requires buying new physical servers (Capital Expenditure - CapEx).
+
+Cloud: You trade fixed expenses for variable expenses (Operating Expenditure - OpEx) and only pay for what you use.
+
+5 Essential Characteristics (NIST Definition)
+On-demand Self-service: You can provision resources automatically without human intervention from the provider.
+
+Broad Network Access: Services are available over the network and accessed through standard mechanisms (mobile phones, tablets, laptops).
+
+Resource Pooling: The provider’s resources are pooled to serve multiple consumers using a multi-tenant model.
+
+Rapid Elasticity: Capabilities can be elastically provisioned and released to scale rapidly outward or inward based on demand.
+
+Measured Service: Cloud systems automatically control and optimize resource use by leveraging a metering capability (Pay-as-you-go).
+
+Summary for the Day
+The "Cloud" isn't just "someone else's computer." It is a shift in how we handle infrastructure—moving from a model of ownership and maintenance to a model of service and scalability.
