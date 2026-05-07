@@ -1,0 +1,15 @@
+# Day 3: Cloud Service Models (IaaS, PaaS, SaaS)
+
+1. Infrastructure as a Service (IaaS): Contains the basic building blocks for cloud IT (networking, computers, data storage). Provides the highest level of flexibility and control.[cite: 3]
+2. Platform as a Service (PaaS): Removes the need for you to manage underlying infrastructure (hardware/OS) so you can focus on deployment and management of apps.[cite: 3]
+3. Software as a Service (SaaS): Provides a completed product that is run and managed by the service provider (e.g., Gmail, Salesforce).[cite: 3]
+
+## Detailed Breakdown
+Cloud computing represents a paradigm shift in how computing resources are consumed.[cite: 3] In the past, companies had to forecast demand and purchase hardware months in advance.[cite: 3] This often led to either under-provisioning (losing customers) or over-provisioning (wasting money).[cite: 3]
+
+With the cloud, we treat 'Infrastructure as Code'.[cite: 3] This means we can script the creation of servers, databases, and networks just like we write software.[cite: 3] This programmability allows for 'Auto-scaling', where the system grows during peak traffic hours and shrinks when users are offline, ensuring maximum cost efficiency.[cite: 3]
+
+Furthermore, cloud providers offer 'High Availability' by spreading data centers across different geographical regions.[cite: 3] If one data center fails due to a power outage or natural disaster, your application can automatically failover to another location without the end-user even noticing.[cite: 3]
+
+### Key Takeaway for Today:
+The cloud provides democratization of technology.[cite: 3] A startup with two employees now has access to the same world-class infrastructure as a Fortune 500 company, paying only for the minutes they use.[cite: 3]
