@@ -1,13 +1,13 @@
-# Day 5: Virtualization: The Engine of Cloud
+# Day 4: Shared Responsibility Model
 
-Virtualization is the fundamental technology that powers cloud computing. It allows a single physical server to be divided into multiple 'virtual machines' (VMs), each running its own operating system.[cite: 1] This is achieved through a 'Hypervisor' (like VMware or KVM). It allows for better resource utilization, isolation between different users on the same hardware, and rapid provisioning of new environments.
+Security and Compliance is a shared responsibility between the Cloud Provider and the Customer.[cite: 2] Generally, the provider is responsible for security 'of' the cloud (hardware, global infrastructure, managed services).[cite: 2] The customer is responsible for security 'in' the cloud (guest OS, firewall configuration, identity management, and data encryption).[cite: 2] This distribution of responsibility varies depending on whether you use IaaS, PaaS, or SaaS.[cite: 2]
 
 ## Detailed Breakdown
-Cloud computing represents a paradigm shift in how computing resources are consumed. In the past, companies had to forecast demand and purchase hardware months in advance. This often led to either under-provisioning (losing customers) or over-provisioning (wasting money).
+Cloud computing represents a paradigm shift in how computing resources are consumed.[cite: 2] In the past, companies had to forecast demand and purchase hardware months in advance.[cite: 2] This often led to either under-provisioning (losing customers) or over-provisioning (wasting money).[cite: 2]
 
-With the cloud, we treat 'Infrastructure as Code'. This means we can script the creation of servers, databases, and networks just like we write software. This programmability allows for 'Auto-scaling', where the system grows during peak traffic hours and shrinks when users are offline, ensuring maximum cost efficiency.[cite: 1]
+With the cloud, we treat 'Infrastructure as Code'.[cite: 2] This means we can script the creation of servers, databases, and networks just like we write software.[cite: 2] This programmability allows for 'Auto-scaling', where the system grows during peak traffic hours and shrinks when users are offline, ensuring maximum cost efficiency.[cite: 2]
 
-Furthermore, cloud providers offer 'High Availability' by spreading data centers across different geographical regions.[cite: 1] If one data center fails due to a power outage or natural disaster, your application can automatically failover to another location without the end-user even noticing.
+Furthermore, cloud providers offer 'High Availability' by spreading data centers across different geographical regions.[cite: 2] If one data center fails due to a power outage or natural disaster, your application can automatically failover to another location without the end-user even noticing.[cite: 2]
 
 ### Key Takeaway for Today:
-The cloud provides democratization of technology. A startup with two employees now has access to the same world-class infrastructure as a Fortune 500 company, paying only for the minutes they use.
+The cloud provides democratization of technology.[cite: 2] A startup with two employees now has access to the same world-class infrastructure as a Fortune 500 company, paying only for the minutes they use.[cite: 2]
