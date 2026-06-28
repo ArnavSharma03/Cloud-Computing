@@ -1,0 +1,13 @@
+# Day 23: Deployment Strategies - Canary Releases
+
+A Canary release exposes a new version of software to a tiny, limited subset of live users before rolling it out to the entire infrastructure. Utilizing weighted routing configurations within a cloud API gateway or service mesh, engineers can direct 5% of application traffic to the new update. By monitoring system health, error logs, and user behavior on this small tier, issues can be isolated and reverted before impacting the entire user base.
+
+## Detailed Breakdown
+Cloud computing represents a paradigm shift in how computing resources are consumed. In the past, companies had to forecast demand and purchase hardware months in advance. This often led to either under-provisioning (losing customers) or over-provisioning (wasting money).
+
+With the cloud, we treat 'Infrastructure as Code'. This means we can script the creation of servers, databases, and networks just like we write software. This programmability allows for 'Auto-scaling', where the system grows during peak traffic hours and shrinks when users are offline, ensuring maximum cost efficiency.
+
+Furthermore, cloud providers offer 'High Availability' by spreading data centers across different geographical regions. If one data center fails due to a power outage or natural disaster, your application can automatically failover to another location without the end-user even noticing.
+
+### Key Takeaway for Today:
+The cloud provides democratization of technology. A startup with two employees now has access to the same world-class infrastructure as a Fortune 500 company, paying only for the minutes they use.
